@@ -8,7 +8,7 @@ def union(Ca, Cb):
 	return  list(Ca)+(filter(lambda x: x not in Ca, list(Cb)))
 	
 def intercepcion(Ca,Cb):
-	return filter(lambda x: x in a, list(b))
+	return filter(lambda x: x in Ca, list(Cb))
 
 def espacio(*conjuntos):
 	result = []
